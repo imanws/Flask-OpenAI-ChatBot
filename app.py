@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 import openai
-from gtts import gTTS
 app = Flask(__name__)
 
 #OpenAI API KEY
